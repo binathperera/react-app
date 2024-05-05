@@ -22,7 +22,11 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="btn btn-primary" type="submit" url="/home">
+            <Button
+              buttonStyle="btn btn-primary"
+              type="submit"
+              url="/react-app"
+            >
               Subscribe
             </Button>
           </form>
@@ -32,34 +36,34 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/home">Testimonials</Link>
-            <Link to="/home">Terms of Service</Link>
+            <Link to="/react-app">Testimonials</Link>
+            <Link to="/react-app">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/home">Contact</Link>
-            <Link to="/home">Sponsorships</Link>
+            <Link to="/react-app">Contact</Link>
+            <Link to="/react-app">Sponsorships</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Projects</h2>
-            <Link to="/home">Media</Link>
-            <Link to="/home">Ambassadors</Link>
+            <Link to="/react-app">Media</Link>
+            <Link to="/react-app">Ambassadors</Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/home">Instagram</Link>
-            <Link to="/home">Facebook</Link>
-            <Link to="/home">Youtube</Link>
-            <Link to="/home">Twitter</Link>
+            <Link to="/react-app">Instagram</Link>
+            <Link to="/react-app">Facebook</Link>
+            <Link to="/react-app">Youtube</Link>
+            <Link to="/react-app">Twitter</Link>
           </div>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/home" className="footer-logo">
+            <Link to="/react-app" className="footer-logo">
               <img src="images/ecsc-navbar-logo.png" />
             </Link>
           </div>
@@ -69,7 +73,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
-              to="/home"
+              to="/react-app"
               target="_blank"
               aria-label="Facebook"
             >
@@ -77,7 +81,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link instagram"
-              to="/home"
+              to="/react-app"
               target="_blank"
               aria-label="Instagram"
             >
@@ -85,7 +89,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link youtube"
-              to="/home"
+              to="/react-app"
               target="_blank"
               aria-label="Youtube"
             >
@@ -93,7 +97,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link twitter"
-              to="/home"
+              to="/react-app"
               target="_blank"
               aria-label="Twitter"
             >
@@ -101,7 +105,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link twitter"
-              to="/home"
+              to="/react-app"
               target="_blank"
               aria-label="LinkedIn"
             >
