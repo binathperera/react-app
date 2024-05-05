@@ -22,11 +22,7 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button
-              buttonStyle="btn btn-primary"
-              type="submit"
-              url="/react-app"
-            >
+            <Button buttonStyle="btn btn-primary" type="submit" url="/">
               Subscribe
             </Button>
           </form>
@@ -36,34 +32,34 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/react-app">Testimonials</Link>
-            <Link to="/react-app">Terms of Service</Link>
+            <Link to="/">Testimonials</Link>
+            <Link to="/">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/react-app">Contact</Link>
-            <Link to="/react-app">Sponsorships</Link>
+            <Link to="/">Contact</Link>
+            <Link to="/">Sponsorships</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Projects</h2>
-            <Link to="/react-app">Media</Link>
-            <Link to="/react-app">Ambassadors</Link>
+            <Link to="/">Media</Link>
+            <Link to="/">Ambassadors</Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/react-app">Instagram</Link>
-            <Link to="/react-app">Facebook</Link>
-            <Link to="/react-app">Youtube</Link>
-            <Link to="/react-app">Twitter</Link>
+            <Link to="/">Instagram</Link>
+            <Link to="/">Facebook</Link>
+            <Link to="/">Youtube</Link>
+            <Link to="/">Twitter</Link>
           </div>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/react-app" className="footer-logo">
+            <Link to="/" className="footer-logo">
               <img src="images/ecsc-navbar-logo.png" />
             </Link>
           </div>
@@ -73,7 +69,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
-              to="/react-app"
+              to="/"
               target="_blank"
               aria-label="Facebook"
             >
@@ -81,7 +77,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link instagram"
-              to="/react-app"
+              to="/"
               target="_blank"
               aria-label="Instagram"
             >
@@ -89,7 +85,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link youtube"
-              to="/react-app"
+              to="/"
               target="_blank"
               aria-label="Youtube"
             >
@@ -97,7 +93,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link twitter"
-              to="/react-app"
+              to="/"
               target="_blank"
               aria-label="Twitter"
             >
@@ -105,7 +101,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link twitter"
-              to="/react-app"
+              to="/"
               target="_blank"
               aria-label="LinkedIn"
             >
