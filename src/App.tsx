@@ -1,15 +1,21 @@
-import { useState } from "react";
+import React from "react";
+import Navbar from "./components/Navbar";
 import "./App.css";
-import ListGroup from "./ListGroup";
+import Home from "./components/pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/pages/About";
+import News from "./components/pages/News";
 
 function App() {
-  let items = ["Soap", "Shampoo", "Rice", "Toothbrush", "Deodrant"];
-  let countries = ["Sri Lanka", "India", "USA", "UK", "Saudi"];
   return (
-    <div>
-      <ListGroup items={items} heading="Items" />
-      <ListGroup items={countries} heading="Countries" />
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/news" element={<News />} />
+      </Routes>
+    </>
   );
 }
 
