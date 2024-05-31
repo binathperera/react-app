@@ -36,7 +36,7 @@ function Footer() {
             <Link to="/">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
-            <h2>Contact Us</h2>
+            <h2> Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Sponsorships</Link>
           </div>
@@ -63,9 +63,7 @@ function Footer() {
               <img src="images/ecsc-navbar-logo.png" />
             </Link>
           </div>
-          <small className="website-rights">
-            ECSC University of Kelaniya © 2024
-          </small>
+          <small className="website-rights">Copyrights ECSC © 2024</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
@@ -81,15 +79,16 @@ function Footer() {
               target="_blank"
               aria-label="Instagram"
             >
-              <i className="fab fa-instagram" />
+              <i className="bi bi-instagram"></i>
             </Link>
+
             <Link
               className="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
             >
-              <i className="fab fa-youtube" />
+              <i className="bi bi-youtube" />
             </Link>
             <Link
               className="social-icon-link twitter"
@@ -97,7 +96,7 @@ function Footer() {
               target="_blank"
               aria-label="Twitter"
             >
-              <i className="fab fa-twitter" />
+              <i className="bi bi-twitter" />
             </Link>
             <Link
               className="social-icon-link twitter"
@@ -105,7 +104,7 @@ function Footer() {
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i className="fab fa-linkedin" />
+              <i className="bi bi-linkedin" />
             </Link>
           </div>
         </div>
